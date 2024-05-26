@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ayush Gangwar</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap@5.3.3/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/bs-brain@2.0.4/components/skills/skill-1/assets/css/skill-1.css" />
     <link rel="stylesheet" href="./public/styles/main.css">
 </head>
 <body>
@@ -23,7 +25,10 @@
               <a class="nav-link navbar-btn" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link navbar-btn" href="#projectsAndServices">Projects and Services</a>
+              <a class="nav-link navbar-btn" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link navbar-btn" href="#projects-services">Projects and Services</a>
             </li>
             <li class="nav-item">
               <a class="nav-link navbar-btn" href="#contact">Contact</a>
@@ -36,7 +41,7 @@
     <div  id="home" class="home position-relative overflow-hidden m-md-3 text-center rounded">
         <div class="col-md-6 p-lg-5 mx-auto my-5">
             <h1 class="display-3 fw-bold">Ayush Gangwar</h1>
-            <h3 class="fw-normal mb-3">Programmer, Web Developer, UI Designer</h3>
+            <h2 class="fw-normal mb-3 my-intro">Programmer, Web Developer, UI Designer</h2>
         </div>
     </div>
 
@@ -46,22 +51,169 @@
         <img src="./public/images/me.png" class="d-block mx-lg-auto img-fluid about-img" alt="Bootstrap Themes" width="500" height="200" loading="lazy">
       </div>
       <div class="col-lg-6">
-        <h1 class="display-3 fw-bold">About me</h1>
-        <p class="lead p-about"><p>I'm Pursuing my Bachelor's in the field of Computer Science and Design from Galgotias College Of Engineering And Technology. 
+        <h2 class="display-3 fw-bold">About me</h2>
+        <p class="lead p-about"><p class="about-para">I'm Pursuing my Bachelor's in the field of <span>Computer Science and Design</span> from <span>Galgotias College Of Engineering and Technology</span>. 
                             I'm passionate about programming, particularly in languages like C and C++, and I specialize in front-end development. My journey in the world of technology has been driven by a relentless curiosity and a thirst for knowledge. I believe in constantly challenging myself and embracing new technologies as they emerge.</p>
-                            <p>Thank you for visiting my Website!</p>
+                            <p class="about-para">Thank you for visiting my Website!</p>
         <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+          <a href="https://github.com/ayush3011/Resume/blob/main/Resume_Ayush_Gangwar.pdf">
           <button type="button" class="btn btn-lg px-4 me-md-2 navbar-btn resume-btn">Resume</button>
+          </a>
         </div>
       </div>
     </div>
   </div>
 
 
+  <section id="skills" class="bsb-skill-1 py-3 py-md-5 mt-4 skill-section">
+  <div class="container">
+    <div class="row justify-content-md-center">
+      <div class="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6">
+        <h2 class="display-3 fw-bold m-2 p-4 text-center">Skills</h2>
+        <hr class="w-50 mx-auto mb-5 mb-xl-9 border-dark-subtle">
+      </div>
+    </div>
+  </div>
+
+  <div class="container overflow-hidden">
+    <div class="row justify-content-xl-center gy-3 gy-sm-4">
+      <div class="col-12 col-sm-6 col-xl-5">
+        <div class="rounded shadow-sm p-3 p-md-4 p-xxl-5 skill-box">
+          <h3 class="fw-bold mb-3 text-center skill-title">Frontend</h3>
+          <p class="text-center">HTML, CSS, JavaScript, jQuery</p>
+          <div class="progress">
+            <div class="progress-bar progress-bar-striped progress-bar-animated progress-bar-width-1" role="progressbar" aria-label="Bootstrap" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85%</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-xl-5">
+        <div class="rounded shadow-sm p-3 p-md-4 p-xxl-5 skill-box">
+          <h3 class="fw-bold mb-3 text-center skill-title">Backend</h3>
+          <p class="text-center">Node.js, Express.js</p>
+          <div class="progress">
+            <div class="progress-bar progress-bar-striped progress-bar-animated progress-bar-width-2" role="progressbar" aria-label="React" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-xl-5">
+        <div class="rounded shadow-sm p-3 p-md-4 p-xxl-5 skill-box">
+          <h3 class="fw-bold mb-3 text-center skill-title">Programming</h3>
+          <p class="text-center">C/C++</p>
+          <div class="progress">
+            <div class="progress-bar progress-bar-striped progress-bar-animated progress-bar-width-3" role="progressbar" aria-label="Vue" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">65%</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-xl-5">
+        <div class="rounded shadow-sm p-3 p-md-4 p-xxl-5 skill-box">
+          <h3 class="fw-bold mb-3 text-center skill-title">SQL</h3>
+          <p class="text-center">‎ </p>
+          <div class="progress">
+            <div class="progress-bar progress-bar-striped progress-bar-animated progress-bar-width-4" role="progressbar" aria-label="WordPress" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">95%</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-xl-5">
+        <div class="rounded shadow-sm p-3 p-md-4 p-xxl-5 skill-box">
+          <h3 class="fw-bold mb-3 text-center skill-title">Programming</h3>
+          <p class="text-center">C/C++</p>
+          <div class="progress">
+            <div class="progress-bar progress-bar-striped progress-bar-animated progress-bar-width-3" role="progressbar" aria-label="Vue" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">65%</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-xl-5">
+        <div class="rounded shadow-sm p-3 p-md-4 p-xxl-5 skill-box">
+          <h3 class="fw-bold mb-3 text-center skill-title">Programming</h3>
+          <p class="text-center">C/C++</p>
+          <div class="progress">
+            <div class="progress-bar progress-bar-striped progress-bar-animated progress-bar-width-3" role="progressbar" aria-label="Vue" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">65%</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<hr>
+
+<div class="album py-5 bg project-container m-4" id="projects-services">
+    <h2 class="display-3 fw-bold text-center mb-4">Projects</h2>
+        <hr class="w-50 mx-auto mb-5 mb-xl-9 border-dark-subtle">
+    <div class="container">
+
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card rounded">
+            <img src="./public/images/1.png" alt="">
+            <div class="card-body">
+              <h3 class="project-title">Unravel Earth</h3>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card rounded">
+            <img src="./public/images/1.png" alt="">
+            <div class="card-body">
+              <h3 class="project-title">Unravel Earth</h3>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card rounded">
+            <img src="./public/images/1.png" alt="">
+            <div class="card-body">
+              <h3 class="project-title">Unravel Earth</h3>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card rounded">
+            <img src="./public/images/1.png" alt="">
+            <div class="card-body">
+              <h3 class="project-title">Unravel Earth</h3>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+
     <div id="contact" class="d-flex flex-column p-4 py-md-5 align-items-center justify-content-center">
-        <h1 class="display-3 fw-bold m-2 p-4">Contact</h1>
+        <h2 class="display-3 fw-bold m-2 p-4">Contact</h2>
+        <hr class="w-50 mx-auto mb-5 mb-xl-9 border-dark-subtle">
         <div class="list-group">
-            <a href="mailto:ayushgangwar3011@gmail.com" class="list-group-item list-group-item-action d-flex gap-3 py-3 contact-profile" aria-current="true" target="_blank">
+            <a href="mailto:ayushgangwar3011@gmail.com" class="list-group-item list-group-item-action d-flex m-2 rounded py-3 contact-profile" aria-current="true" target="_blank">
             <img src="./public/images/gmail-logo-24.png" alt="mail" width="32" height="32" class="rounded-circle flex-shrink-0">
             <div class="d-flex gap-2 w-100 justify-content-between">
                 <div>
@@ -69,24 +221,32 @@
                 </div>
             </div>
             </a>
-            <a href="https://github.com/ayush3011" class="list-group-item list-group-item-action d-flex gap-3 py-3 contact-profile" aria-current="true" target="_blank">
-                <img src="./public/images/github-logo-24.png" alt="twbs" width="32" height="32" class="rounded-circle flex-shrink-0">
+            <a href="https://github.com/ayush3011" class="list-group-item list-group-item-action d-flex m-2 rounded py-3 contact-profile" aria-current="true" target="_blank">
+                <img src="./public/images/github-logo-24.png" alt="twbs" width="32" height="32" class="rounded-circle">
                 <div class="d-flex gap-2 w-100 justify-content-between">
                     <div>
-                        <h3 class="mb-0">Github</h3>
+                        <h3 class="">Github</h3>
                     </div>
                 </div>
             </a>
-            <a href="https://www.linkedin.com/in/ayush-gangwar-857631226/" class="list-group-item list-group-item-action d-flex gap-3 py-3 contact-profile" aria-current="true" target="_blank">
-                <img src="./public/images/linkedin-square-logo-24.png" alt="twbs" width="32" height="32" class="rounded-circle flex-shrink-0">
+            <a href="https://www.linkedin.com/in/ayush-gangwar-857631226/" class="list-group-item list-group-item-action d-flex m-2 rounded py-3 contact-profile" aria-current="true" target="_blank">
+                <img src="./public/images/linkedin-square-logo-24.png" alt="twbs" width="32" height="32" class="rounded-circle">
                 <div class="d-flex gap-2 w-100 justify-content-between">
                     <div>
                         <h3 class="mb-0">LinkedIn</h3>
                     </div>
                 </div>
             </a>
-            <a href="tel:9720029711" class="list-group-item list-group-item-action d-flex gap-3 py-3 contact-profile" aria-current="true" target="_blank">
-                <img src="./public/images/phone-regular-24.png" alt="twbs" width="32" height="32" class="rounded-circle flex-shrink-0">
+            <a href="https://leetcode.com/u/ayushgangwar3011/" class="list-group-item list-group-item-action d-flex m-2 rounded py-3 contact-profile" aria-current="true" target="_blank">
+                <img src="./public/images/code-alt-regular-24.png" alt="twbs" width="32" height="32" class="rounded-circle">
+                <div class="d-flex gap-2 w-100 justify-content-between">
+                    <div>
+                        <h3 class="mb-0">Leetcode</h3>
+                    </div>
+                </div>
+            </a>
+            <a href="tel:9720029711" class="list-group-item list-group-item-action d-flex m-2 rounded py-3 contact-profile" aria-current="true" target="_blank">
+                <img src="./public/images/phone-regular-24.png" alt="twbs" width="32" height="32" class="rounded-circle">
                 <div class="d-flex gap-2 w-100 justify-content-between">
                     <div>
                         <h3 class="mb-0">9720029711</h3>
