@@ -53,6 +53,9 @@ h2{
     color: #76ABAE;
     letter-spacing: 2px;
 }
+.resume-btn p{
+    margin-bottom: 0;
+}
 .resume-btn:hover{
     background-color: #3f6f72;
     /* font-size: xx-large; */
@@ -100,6 +103,25 @@ h2{
 .skill-title{
     color: #76ABAE;
 }
+.bsb-skill-1 .progress-bar-width-1 {
+    width: 90%;
+}
+.bsb-skill-1 .progress-bar-width-2 {
+    width: 65%;
+}
+.bsb-skill-1 .progress-bar-width-3 {
+    width: 90%;
+}
+.bsb-skill-1 .progress-bar-width-4 {
+    width: 80%;
+}
+.bsb-skill-1 .progress-bar-width-5 {
+    width: 90%;
+}
+.bsb-skill-1 .progress-bar-width-6 {
+    width: 80%;
+}
+
 .card-body{
     background-color: #31363F;
 }
@@ -119,3 +141,10 @@ span{
 .about-para{
     font-size: 1.3rem;
 }
+
+.project-container-display{
+    display: flex;
+    flex-direction: row;
+}
+
+
