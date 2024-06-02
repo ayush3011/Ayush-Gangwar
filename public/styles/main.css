@@ -147,4 +147,10 @@ span{
     flex-direction: row;
 }
 
+footer p{
+    text-align: center;
+    /* border: 2px solid white; */
+    background-color: #31363F;
+    border-radius: 5px;
+}
 
